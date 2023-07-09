@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    line-height: 1.2;
+}
+a{
+    text-decoration: none;
+}
+p{
+    padding: 0.75rem 0;
+}
+/* utility classuusiin style */
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.py-1{
+    padding: 0.8rem 0;
+}
+.py-2{
+    padding: 1.2rem 0;
+}
+.py-3{
+    padding: 1.5rem 0;
+}
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.p-3{
+    padding: 3rem;
+}
+.list{
+    margin: 0.5rem;
+}
+.list li{
+    padding: 1rem;
+    border-bottom: #444 dotted 1px;
+}
+.bg-light{
+    background-color:#f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background-color: #333;
+    color: #fff;
+}
+.bg-dark1{
+    background-color: rgb(52, 52, 207);
+    color:#fff;
+}
+.bg-dark2{
+    background-color: coral;
+}
+.bg-primary{
+    background: #93cb52;
+    color: #fff;
+}   
+.bg-primary1{
+    background: #2c4af8;
+    color: #fff;
+}   
+.bg-primary2{
+    background: coral;
+    color: #fff;
+}   
+.text-primary{
+    color: #93cb52;
+}
+.text-primary2{
+    color:coral;
+}
+.text-primary3{
+    color:rgb(93, 93, 240)
+}
+.text-primary4{
+    color:indigo;
+}
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.m-heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.button{
+    background: #93cb52;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+.button1{
+    background: #4c9ef6;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+.button2{
+    background: coral;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+.button3{
+    background: indigo;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+.button:hover{
+    background-color: #7ab436;
+}
+.button1:hover{
+    background-color: #2c4af8;
+}
+.button2:hover{
+    background-color: rgb(250, 101, 47);
+}
+.button3:hover{
+    background-color: rgb(55, 3, 92);
+}
+.btn-dark{
+    background-color: #333;
+    color: #fff;
+}
+/* undsen tses */
+#navbar{
+    display: flex;
+    position: sticky;
+    top:0;
+    background: #333;
+    color: #fff;
+    justify-content: space-between;
+    padding:1rem;
+    z-index: 1;
+}
+#navbar1{
+    display: flex;
+    position: sticky;
+    top:0;
+    background: rgb(75, 75, 255);
+    color: #fff;
+    justify-content: space-between;
+    padding:1rem;
+    z-index: 1;
+}
+#navbar2{
+    display: flex;
+    position: sticky;
+    top:0;
+    background: rgb(252, 146, 76);
+    color: #fff;
+    justify-content: space-between;
+    padding:1rem;
+    z-index: 1;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 1rem;
+    color: #fff;
+    margin: 0 0.75rem;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a:hover{
+    background: #93cb52;
+    border-radius: 1rem;
+}
+#navbar1 ul li a:hover{
+    background: #63a3f6;
+    border-radius: 1rem;
+}
+#navbar2 ul li a:hover{
+    background:coral;
+    border-radius: 1rem;
+}
+/* showcase */
+#showcase{
+    background:#333;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 3rem;
+    width: 100%;
+    position: absolute;
+    top: 3.8rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0,0.5);
+}
+/* bid yu hiideg ve */
+#what .m-heading{
+    text-align: center;
+}
+.items{
+    display: flex;
+    justify-content:space-around;
+}
+.item{
+    padding: 1rem;
+    text-align: center;
+}
+.item h3{
+    padding: 1rem 0;
+}
+.item i{
+    background-color: #93cb52;
+    padding: 1rem;
+    border-radius: 50px;
+}
+/* bid hen be heseg */
+#who{
+    display: flex;
+}
+#who div{
+    flex: 1 ;
+}
+.who-img{
+    background: url("../img/people.jpg") no-repeat center center/cover;
+}
+#who .who-text li{
+    list-style: none;
+}
+#contact{
+    display: flex;
+    width: 100%;
+}
+#contact .map{
+    width: 50%;
+}
+#contact .contact-form{
+    width: 50%;
+}
+#contact .contact-form .form-group{
+    margin: 0.75rem;
+}
+#contact .contact-form .form-group #name{
+    border: none;
+}
+#contact .contact-form .form-group #email{
+    border: none;
+}
+#contact .contact-form input,#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+}
+/* footer */
+#main-footer{
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 10vh;
+    align-items: center;
+}
+#main-footer1{
+    display: flex;
+    background-color: #63a3f6;
+    color: #fff;
+    text-align: center;
+    height: 10vh;
+    align-items: center;
+}
+#main-footer2{
+    display: flex;
+    background-color: coral;
+    color: #fff;
+    text-align: center;
+    height: 10vh;
+    align-items: center;
+}
+.text{
+    font-size: 1.1rem;
+    text-align: justify;
+    line-height: 1.5;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "biydaalt4",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {
+    "start": "node ./dist/index.js --start",
+    "build": "tsc --build"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.5",
+    "live-server": "^1.2.2",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/prompt-sync": "^4.2.0"
+  }
+}
